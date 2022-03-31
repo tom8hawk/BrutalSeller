@@ -1,0 +1,145 @@
+slots:
+  '1':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIRT:
+      price: 100.0
+      chance: 58
+    DIAMOND_ORE:
+      price: 1000.0
+      chance: 7
+    DIAMOND_SWORD:
+      price: 2340.0
+      chance: 30
+  '2':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIAMOND_BLOCK:
+      price: 100.0
+      chance: 58
+    GRASS:
+      price: 1000.0
+      chance: 7
+    COAL_ORE:
+      price: 2340.0
+      chance: 30
+  '3':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIRT:
+      price: 100.0
+      chance: 58
+    DIAMOND_ORE:
+      price: 1000.0
+      chance: 7
+    DIAMOND_SWORD:
+      price: 2340.0
+      chance: 30
+  '4':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIAMOND_BLOCK:
+      price: 100.0
+      chance: 58
+    GRASS:
+      price: 1000.0
+      chance: 7
+    COAL_ORE:
+      price: 2340.0
+      chance: 30
+  '5':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIRT:
+      price: 100.0
+      chance: 58
+    DIAMOND_ORE:
+      price: 1000.0
+      chance: 7
+    DIAMOND_SWORD:
+      price: 2340.0
+      chance: 30
+  '6':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIAMOND_BLOCK:
+      price: 100.0
+      chance: 58
+    GRASS:
+      price: 1000.0
+      chance: 7
+    COAL_ORE:
+      price: 2340.0
+      chance: 30
+  '7':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIRT:
+      price: 100.0
+      chance: 58
+    DIAMOND_ORE:
+      price: 1000.0
+      chance: 7
+    DIAMOND_SWORD:
+      price: 2340.0
+      chance: 30
+  '8':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIAMOND_BLOCK:
+      price: 100.0
+      chance: 58
+    GRASS:
+      price: 1000.0
+      chance: 7
+    COAL_ORE:
+      price: 2340.0
+      chance: 30
+  '9':
+    DIAMOND:
+      price: 1349.0
+      chance: 5
+    DIRT:
+      price: 100.0
+      chance: 58
+    DIAMOND_ORE:
+      price: 1000.0
+      chance: 7
+    DIAMOND_SWORD:
+      price: 2340.0
+      chance: 30
+
+gui:
+  title: 'Скупщик'
+  Product:
+    lore:
+      - '&6Стоимость товара: &e%price'
+  Filled:
+    name: '&cТовар больше не принимается!'
+    lore: []
+  Info:
+    name: '&eИнформация'
+    lore: []
+
+Messages:
+  successfully: 'Вы успешно продали %amount ед.товара на сумму %price'
+  not-in-store: '&aСкупщик не продаёт этот товар!'
+  not-in-inventory: 'В вашем инвентаре нет этого товара!'
+  less-stack: '&cВы не можете продать меньше стака товара!'
+
+  successfully-reload: 'Плагин успешно перезагружен!'
+  successfully-update: 'Торги успешно обновлены!'
+
+  update-broadcast: '&e[Объявление] &dТорги у скупщика были обновлены!'
+
+update: 12 # В часах
+price-reduction-every: 100 # Уменьшение цены каждые (ед.товара)
+purchases-to-delete: 500 # Кол-во покупок для снятия товара с продажи
