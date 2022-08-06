@@ -131,9 +131,9 @@ gui:
 
 Messages:
   successfully: 'Вы успешно продали %amount ед.товара на сумму %price'
+
   not-in-store: '&aСкупщик не продаёт этот товар!'
   not-in-inventory: 'В вашем инвентаре нет этого товара!'
-  less-stack: '&cВы не можете продать меньше стака товара!'
 
   successfully-reload: 'Плагин успешно перезагружен!'
   successfully-update: 'Торги успешно обновлены!'

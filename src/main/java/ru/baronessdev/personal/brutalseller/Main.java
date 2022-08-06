@@ -22,7 +22,8 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 public final class Main extends JavaPlugin implements Listener {
-    public static final Executor executor = Executors.newCachedThreadPool();
+    public static final Executor executor = Executors.newWorkStealingPool();
+
     public static InventoryManager inventoryManager;
     public static Economy econ;
 
