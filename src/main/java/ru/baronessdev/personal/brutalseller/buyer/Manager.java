@@ -92,19 +92,16 @@ public class Manager {
 
     public static void updatePrice(OfflinePlayer player, int slot, double price) {
         Manager manager = get(player);
-
         manager.prices.set(slot, manager.prices.get(slot).setPrice(price));
     }
 
     public static int getProductBuy(OfflinePlayer player, int slot) {
         Manager manager = get(player);
-
         return manager.buy.getOrDefault(manager.prices.get(slot), 0);
     }
 
     public static void setProductBuy(OfflinePlayer player, int slot, int value) {
         Manager manager = get(player);
-
         manager.buy.put(manager.prices.get(slot), value);
     }
 

@@ -110,11 +110,12 @@ public class Gui implements InventoryProvider {
         ItemMeta meta = stack.getItemMeta();
 
         meta.setLore(Config.inst.getList("gui.Product.lore").stream()
-                .map(line -> line.replace("%price", String.valueOf(Math.round(product.getPrice() * stack.getMaxStackSize()))))
+                .map(line -> line.replace("%price", String.valueOf(product.getPrice())))
                 .collect(Collectors.toList()));
-        meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
 
+        meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         stack.setItemMeta(meta);
+
         return stack;
     }
 
